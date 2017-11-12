@@ -6,7 +6,7 @@
 
 bool fileExists( const std::string & path )
 {
-    std::ifstream file( path );
+	std::ifstream file( path );
 
 	return file;
 }
@@ -18,7 +18,7 @@ void removeFile( const std::string & path )
 
 void execute( const std::string & command )
 {
-    std::system( command.c_str() );
+	std::system( command.c_str() );
 }
 
 std::string temporaryFilePath( void )
@@ -30,7 +30,7 @@ std::string temporaryFilePath( void )
 
 	try
 	{
-    	generator = std::mt19937( std::random_device()() );
+		generator = std::mt19937( std::random_device()() );
 	}
 	catch( ... )
 	{
@@ -79,13 +79,13 @@ int main( int argc, char ** argv )
 	// Check if CLANG is available
 	if( fileExists( BIN_PATH + "/clang++" ) )
 	{
-    	// Compile C++ code with clang++
-    	execute( BIN_PATH + "/clang++ " + tmpFilename + ".cc -o " + tmpFilename );
+		// Compile C++ code with clang++
+		execute( BIN_PATH + "/clang++ " + tmpFilename + ".cc -o " + tmpFilename );
 	}
 	else if( fileExists( BIN_PATH + "/c++" ) )
 	{
-    	// Compile C++ code with c++
-    	execute( BIN_PATH + "/c++ " + tmpFilename + ".cc -o " + tmpFilename );
+		// Compile C++ code with c++
+		execute( BIN_PATH + "/c++ " + tmpFilename + ".cc -o " + tmpFilename );
 	}
 	else if( fileExists( BIN_PATH + "/g++" ) )
 	{
