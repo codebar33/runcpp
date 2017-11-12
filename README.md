@@ -41,7 +41,7 @@ int main( int argc, char ** argv )
 }
 ```
 
-> **NOTE** Change the path /usr/bin/runc++ depending on your **runcpp** installation folder
+> **NOTE** Change the path /usr/bin/runc++ depending on your **runcpp** installation folder.
 
 
 
