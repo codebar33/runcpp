@@ -1,0 +1,3 @@
+[submodule "STDC"]
+	path = STDC
+	url = https://github.com/macmade/STDC.git

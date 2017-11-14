@@ -22,7 +22,7 @@ mycomputer:home user$ ./hello.cpp
 hello world!
 ```
 
-How it works
+How does it work?
 ------------
 Add ```#!/usr/bin/runcpp``` at the beginning of your C++ source code and set an execute permission on your file (```chmod 755 ./hello.cpp```) to allow its execution.
 
