@@ -99,6 +99,7 @@ int main( int argc, char * argv[] )
     std::string     sourceCodePath;
     std::string     compiler;
     std::ofstream   strippedCodeStream;
+    bool            sourceCodePathRetrieved;
 
     if( argc < 2 )
     {
@@ -106,6 +107,8 @@ int main( int argc, char * argv[] )
 
         return 1;
     }
+    
+    sourceCodePathRetrieved = false;
     
     for ( int i = 1; i < argc; ++i )
     {
@@ -134,7 +137,14 @@ int main( int argc, char * argv[] )
         else
         {
             // Get source code file path or code to evaluate
-            sourceCodePath += " " + arg;
+            if( sourceCodePathRetrieved )
+            {
+                sourceCodePath += " ";
+            }
+            
+            sourceCodePath += arg;
+            
+            sourceCodePathRetrieved = true;
         }
     }
 
