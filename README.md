@@ -1,7 +1,6 @@
 **runcpp**
 =======
 
-[![Issues](https://img.shields.io/coveralls/codebar33/runcpp.svg?branch=master&style=flat)](https://github.com/codebar33/runcpp/issues)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
 ![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)
 [![Contact](https://img.shields.io/badge/contact-@JeBedat-blue.svg?style=flat)](https://twitter.com/JeBedat)  
