@@ -12,15 +12,15 @@
 
 void showUsage( void )
 {
-    std::cerr << "OVERVIEW: runcpp (https://github.com/codebar33/runcpp)\n"
-              << "Runcpp will compile and execute any C / C++ source code or code expression.\n"
-              << "You can also add \"#!/usr/bin/runcpp\" at te beginning of your source code to allow its \"direct\" execution.\n"
-              << "It will use the default system compiler but you can specify one if you like.\n"
-              << "C and C++ file extensions are currently supported, feel free to add support for more languages!\n\n"
+    std::cerr << "OVERVIEW: runcpp (https://github.com/codebar33/runcpp)\n\n"
+              << "Runcpp can compile and execute C or C++ source code or simple code expressions.\n"
+              << "Once installed in /usr/bin, you can add \"#!/usr/bin/runcpp\" at the beginning of your source code to allow its \"direct\" execution.\n"
+              << "It uses the default system C and C++ compiler but you can specify one if you like.\n"
+              << "C and C++ file extensions are currently supported, feel free to add a support for more languages!\n\n"
               << "USAGE: runcpp [options] source code file or code expression\n\n"
               << "OPTIONS:\n"
               << "\t-h,--help\tShow this help message\n"
-              << "\t-c,--compiler \tSpecify the compiler (cc, c++, gcc, g++, clang, clang++...)"
+              << "\t-c,--compiler\tSpecify the compiler (cc, c++, gcc, g++, clang, clang++...)"
               << std::endl;
 }
 
@@ -196,7 +196,7 @@ int main( int argc, char * argv[] )
     }
     else
     {
-        // Get compiler the if needed
+        // Get compiler if needed
         if( compiler.length() == 0 )
         {
             compiler = findCompilerForSourceFileExtension( sourceCodePath );
@@ -225,7 +225,7 @@ int main( int argc, char * argv[] )
     execute( tmpFilename );
 
     // Remove temporary files
-    removeFile( tmpFilename + ".cc" );
+    removeFile( tmpFilename + tmpFilenameExt );
     removeFile( tmpFilename );
 
     return 0;
