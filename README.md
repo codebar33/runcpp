@@ -48,7 +48,7 @@ Execute simple expressions
 --------------------------
 Example 1
 ```
-codebars-mbp:runcpp codebar$ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i << endl; }"
+mycomputer:home user$ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i << endl; }"
 0
 1
 2
@@ -63,7 +63,7 @@ codebars-mbp:runcpp codebar$ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i 
 
 Example 2
 ```cpp
-codebars-mbp:runcpp codebar$ ./runcpp "(42 % 10)"
+mycomputer:home user$ ./runcpp "(42 % 10)"
 2
 ```
 
