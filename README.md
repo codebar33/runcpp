@@ -1,9 +1,7 @@
 **runcpp**
 =======
 
-[![Build Status](https://img.shields.io/travis/codebar33/runcpp.svg?branch=master&style=flat)](https://travis-ci.org/codebar33/runcpp)
-[![Coverage Status](https://img.shields.io/coveralls/codebar33/runcpp.svg?branch=master&style=flat)](https://coveralls.io/r/codebar33/runcpp?branch=master)
-[![Issues](http://img.shields.io/github/issues/codebar33/runcpp.svg?style=flat)](https://github.com/codebar33/runcpp/issues)
+[![Issues](https://img.shields.io/coveralls/codebar33/runcpp.svg?branch=master&style=flat)](https://github.com/codebar33/runcpp/issues)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
 ![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)
 [![Contact](https://img.shields.io/badge/contact-@JeBedat-blue.svg?style=flat)](https://twitter.com/JeBedat)  
