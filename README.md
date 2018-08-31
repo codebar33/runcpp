@@ -73,7 +73,7 @@ $ ./runcpp --help
 OVERVIEW: runcpp (https://github.com/codebar33/runcpp)
 
 Runcpp can compile and execute C or C++ source code or simple code expressions.
-Once installed in /usr/bin, you can add "#!/usr/bin/runcpp" at the beginning of your source code to allow its "direct" execution.
+Once installed in /usr/local/bin, you can add "#!/usr/local/bin/runcpp" at the beginning of your source code to allow its "direct" execution.
 It uses the default system C and C++ compiler but you can specify one if you like.
 C and C++ file extensions are currently supported, feel free to add a support for more languages!
 
