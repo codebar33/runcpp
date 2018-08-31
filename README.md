@@ -59,8 +59,8 @@ $ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i << endl; }"
 ```
 
 Example 2
-```cpp
-mycomputer:home user$ ./runcpp "(42 % 10)"
+```shell
+$ ./runcpp "(42 % 10)"
 2
 ```
 
@@ -68,8 +68,8 @@ mycomputer:home user$ ./runcpp "(42 % 10)"
 Manual
 ------
 
-```
-mycomputer:home user$ ./runcpp --help
+```shell
+$ ./runcpp --help
 OVERVIEW: runcpp (https://github.com/codebar33/runcpp)
 
 Runcpp can compile and execute C or C++ source code or simple code expressions.
