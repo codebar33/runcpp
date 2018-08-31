@@ -21,7 +21,7 @@ hello world!
 
 How does it work?
 -----------------
-Add ```#!/usr/bin/runcpp``` at the beginning of your C++ source code and set an execute permission on your file (```chmod 755 ./hello.cpp```) to allow its execution.
+Add ```#!/usr/local/bin/runcpp``` at the beginning of your C++ source code and set an execute permission on your file (```chmod 755 ./hello.cpp```) to allow its execution.
 
 ```cpp
 #!/usr/bin/runcpp
@@ -38,7 +38,7 @@ int main( int argc, char ** argv )
 }
 ```
 
-> **NOTE:** Change the path /usr/bin/runcpp depending on your **runcpp** installation path.
+> **NOTE:** Change the path /usr/local/bin/runcpp depending on your **runcpp** installation path.
 
 
 Execute simple expressions
