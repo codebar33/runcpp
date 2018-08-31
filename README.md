@@ -14,8 +14,8 @@ About
 **runcpp** can execute C++ source code files, as you do with shell / bash scripts. No more need to build and run successively, you can quickly evaluate simple C++ code snippets.
 
 
-```
-mycomputer:home user$ ./hello.cpp
+```shell
+$ ./hello.cpp
 hello world!
 ```
 
@@ -44,8 +44,8 @@ int main( int argc, char ** argv )
 Execute simple expressions
 --------------------------
 Example 1
-```
-mycomputer:home user$ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i << endl; }"
+```shell
+$ ./runcpp "for( int i = 0; i < 10; i++ ){ cout << i << endl; }"
 0
 1
 2
