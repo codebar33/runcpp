@@ -24,7 +24,7 @@ How does it work?
 Add ```#!/usr/local/bin/runcpp``` at the beginning of your C++ source code and set an execute permission on your file (```chmod 755 ./hello.cpp```) to allow its execution.
 
 ```cpp
-#!/usr/bin/runcpp
+#!/usr/local/bin/runcpp
 
 #include <iostream>
 
